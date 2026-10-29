@@ -1,0 +1,5 @@
+def ar_atlaidi(cena, atlaide=10):
+   Beigu_cena = cena - ((cena * atlaide)/100)
+   return Beigu_cena
+print(ar_atlaidi(200))
+print(ar_atlaidi(200, 25))
